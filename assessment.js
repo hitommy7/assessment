@@ -47,9 +47,11 @@
       + '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
-    anchor.setAttribute('data-text', '診断結果の文章');
+    anchor.setAttribute('data-text', result);
     anchor.innerText = 'Tweet #あなたのいいところ';
     tweetDivided.appendChild(anchor);
+
+    twttr.widgets.load();
   };
   
   const answers = [
