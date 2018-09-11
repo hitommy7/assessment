@@ -1,13 +1,38 @@
 body {
   background-color: #04a6eb;
-  color: #fdffff;
-  width: 500px;
-  margin-right: auto;
-  margin-right: auto;
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0;
+}
+
+.top-wrapper {
+  max-width: 570px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.container {
+  background-color: #fdffff;
+  text-align: center;
+  margin: 30px 0;
+  padding: 50px 40px;
+}
+
+.container h1 {
+  color: #337ab7;
+}
+
+.container p {
+  color: #337ab7;
+}
+
+.container h3 {
+  color: #337ab7;
 }
 
 button {
   padding: 5px 20px;
+  margin: 10px 0;
   background-color: #337ab7;
   color: #fdffff;
   border-style: none;
@@ -15,4 +40,19 @@ button {
 
 input {
   height: 20px;
+  width: 200px;
+}
+
+.result {
+  font-weight: bold;
+  color: #6091d3;/*文字色*/
+  background: #a1a1a1;
+}
+.result p {
+  margin: 10px 10px; 
+  padding: 0;
+}
+
+.result h3 {
+  margin: 10px 10px; 
 }
