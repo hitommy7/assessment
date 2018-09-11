@@ -42,17 +42,3 @@ input {
   height: 20px;
   width: 200px;
 }
-
-.result {
-  font-weight: bold;
-  color: #6091d3;/*文字色*/
-  background: #a1a1a1;
-}
-.result p {
-  margin: 10px 10px; 
-  padding: 0;
-}
-
-.result h3 {
-  margin: 10px 10px; 
-}
